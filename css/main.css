@@ -38,14 +38,43 @@
 }
 
 .flex-box-container {
-  /* display: flex; */
-
-  padding-top: 8em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .flex-box-item {
-
+  width: 80%;
+  height: 33%;
 }
 
 .white {
   color: #fff;
+}
+
+ h1 {
+  /* margin-top: 28px;
+  margin-bottom: 28px;  */
+    margin-left: 0.8em;
+}
+
+.logo {
+  width: 20%;
+}
+
+/* Botón de la Primera Sección */
+
+.btn {
+  font-weight: 700;
+  border: none;
+}
+
+.margin-btn {
+  margin-left: 1.65em;
+}
+
+/* @media (min-width: 768px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 5em;
+    margin-top: 0.3em;
+  } */
 }
