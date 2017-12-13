@@ -20,7 +20,32 @@
 
 /* Primera sección */
 .first-section {
-  /* background-image: url('../assets/images/iPhone6Plus.png'); */
+  background-image: url('../assets/images/taxi.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
   padding-right: 0;
   padding-left: 0;
+}
+
+/* Color para los divs de las secciones*/
+.gold {
+  background-color: #ffbf00;
+}
+
+.laboratoria-color {
+  background-color: #ffc107;
+}
+
+.flex-box-container {
+  /* display: flex; */
+
+  padding-top: 8em;
+}
+.flex-box-item {
+
+}
+
+.white {
+  color: #fff;
 }
