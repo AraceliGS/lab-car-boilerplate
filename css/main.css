@@ -1,13 +1,26 @@
 /* Los estilos de tu proyecto */
 
 /* Para la versión móvil */
+
+/* Header */
+/* Sobreescribiendo esta clase para que el color de fondo no sea el #f8f8f8 sino el blanco(#fff)*/
+.navbar-default {
+  background-color: #fff;
+  /* border: none; */
+}
 /* Sobreescribiendo la propiedad float del button que contiene mi ícono de las barras */
 .navbar-toggle {
     float: left;
 }
-
 .padding{
     padding-top: 2.3em;
     padding-bottom: 4.3em;
     padding-left: 3.3em;
+}
+
+/* Primera sección */
+.first-section {
+  /* background-image: url('../assets/images/iPhone6Plus.png'); */
+  padding-right: 0;
+  padding-left: 0;
 }
