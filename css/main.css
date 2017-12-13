@@ -1,1 +1,6 @@
 /* Los estilos de tu proyecto */
+
+/* Sobreescribiendo la propiedad float del button que contiene mi ícono de las barras */
+.navbar-toggle {
+    float: left;
+}
