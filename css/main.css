@@ -1,8 +1,37 @@
 /* Los estilos de tu proyecto */
 
+/* Clases reutilizables*/
+
+.zero-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Color para los divs y button de las secciones*/
+.gold {
+  background-color: #ffbf00;
+}
+
+.laboratoria-color {
+  background-color: #ffc107;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-border {
+  border: 1px solid #fff;
+}
+
+.font-weight {
+  font-weight: 600;
+}
+
 /* Para la versión móvil */
 
 /* Header */
+
 /* Sobreescribiendo esta clase para que el color de fondo no sea el #f8f8f8 sino el blanco(#fff)*/
 .navbar-default {
   background-color: #fff;
@@ -12,6 +41,7 @@
 .navbar-toggle {
     float: left;
 }
+
 .padding{
     padding-top: 2.3em;
     padding-bottom: 4.3em;
@@ -24,17 +54,6 @@
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   height: 100vh;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-/* Color para los divs de las secciones*/
-.gold {
-  background-color: #ffbf00;
-}
-
-.laboratoria-color {
-  background-color: #ffc107;
 }
 
 .flex-box-container {
@@ -43,22 +62,22 @@
   align-items: center;
 }
 .flex-box-item {
-  width: 80%;
-  height: 33%;
-}
-
-.white {
-  color: #fff;
+  width: 80vw;
+  height: 37vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
 }
 
  h1 {
-  /* margin-top: 28px;
-  margin-bottom: 28px;  */
-    margin-left: 0.8em;
+    margin-top: 0;
+    margin-bottom: -1.2em;
+    margin-left: 1.3em;
 }
 
 .logo {
-  width: 20%;
+  width: 25%;
 }
 
 /* Botón de la Primera Sección */
@@ -69,9 +88,42 @@
 }
 
 .margin-btn {
-  margin-left: 1.65em;
+  margin-left: 2.8em;
 }
 
+/* Segunda Sección */
+
+.second-section {
+  height: 80vh
+}
+
+.second-section img {
+  width: 49vw;
+}
+
+.second-section {
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+.cellphone-box {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.65em;
+  margin-left: 0.2em;
+}
+
+.paragraph {
+  width: 50vw;
+  margin-bottom: -0.4em;
+  margin-left: -8em;
+}
 /* @media (min-width: 768px) {
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 5em;
