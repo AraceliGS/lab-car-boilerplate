@@ -130,15 +130,31 @@
   padding-bottom: 0.7em; 
 }
 
+.paragraph p {
+  margin: 0 0 12px;
+}
+
 /*Tercera sección*/
 
 .third-section {
+  /*background-color: rgba(0,0,0,0.5);*/  
   background-image: url('../assets/images/conduce.jpg');
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   background-position: center center;
   height: 65vh;
+  /*filter: brightness(0.6);*/
 }
+
+/*.third-section::after {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.2);
+  }*/
 
 .little-box {
   width: 85vw;
@@ -152,7 +168,7 @@
   align-items: center;
 }
 
-.h3-styles {
+.line-height {
   line-height: 1.7;
 }
 
@@ -162,10 +178,45 @@
   color: #fcfefc; /* El color de la letra es de un color parecido al blanco, para que se note más */
 }
 
+/* Cuarta sección */
+
+.fourth-section {
+  height: 100vh;
+}
+
+.little-box-1 {
+  height: 30vh;
+}
+
+.little-box-1 p {
+  font-size: 1.3em;
+}
+
+.little-box-1 span {
+  font-size: 1.1em;
+  padding: 0.8em 0.5em;
+}
+
+.border-radius {
+  border-radius: 6px;
+}
+
+.little-box-2 {
+  width: 80vw;
+  padding: 0.8em;
+}
+
+.mini-box-1 {
+  height: 6vh;
+}
+
+.mini-box-2 {
+  margin-bottom: 3.3em;
+}
 /* Para tablets y desktops de todos los tamaños */
 /* @media (min-width: 768px) {
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 5em;
     margin-top: 0.3em;
   } */
-}
+
