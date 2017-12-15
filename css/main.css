@@ -107,7 +107,7 @@
 
 .second-section img {
   width: 49vw;
-  margin-top: 0.1em;
+  margin-top: 0.3em;
 }
 
 /* Div que encierra la imagen del iPhone6 */
@@ -192,11 +192,6 @@
   font-size: 1.3em;
 }
 
-.little-box-1 span {
-  font-size: 1.1em;
-  padding: 0.8em 0.5em;
-}
-
 .border-radius {
   border-radius: 6px;
 }
@@ -207,12 +202,27 @@
 }
 
 .mini-box-1 {
-  height: 6vh;
+  /*height: 6vh;*/
+}
+
+.mini-box-1 form {
+  display: inline-block;
 }
 
 .mini-box-2 {
   margin-bottom: 3.3em;
 }
+
+.mini-box-2 form {
+  display: inline-block;
+}
+
+.little-box-1 input {
+  font-size: 1.1em;
+  padding: 0.6em 0.5em;
+  width: 31rem;
+}
+
 /* Para tablets y desktops de todos los tamaños */
 /* @media (min-width: 768px) {
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
