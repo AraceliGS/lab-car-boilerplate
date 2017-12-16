@@ -149,28 +149,16 @@
 /* Estilos a la tercera sección */
 
 .third-section {
-  /*background-color: rgba(0,0,0,0.5);*/  
   background-image: url('../assets/images/conduce.jpg');
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   background-position: center center;
   height: 65vh;
-  /*filter: brightness(0.6);*/
 }
 
-/*.third-section::after {
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background:rgba(0,0,0,0.2);
-  }*/
-
-.little-box {
-  width: 85vw;
-  margin-top: 5.7em;
+.black-like-background {
+  background-color: rgba(0,0,0,0.5);
+  height: 65vh;
 }
 
 .flex-container-2 {
@@ -180,6 +168,16 @@
   align-items: center;
 }
 
+.little-box {
+  width: 85vw;
+  margin-top: 5.7em;
+}
+
+.div-container h3 {
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
 .line-height {
   line-height: 1.7;
 }
@@ -187,7 +185,7 @@
 .third-section p {
   font-size: 1.4em;
   margin-bottom: 0.8em;
-  color: #fcfefc; /* El color de la letra es de un color parecido al blanco, para que se note más */
+  color: #fff;
 }
 
 /* Estilos a la cuarta sección */
@@ -253,6 +251,7 @@
   font-size: 1.1em;
   padding: 0.6em 0.5em;
   width: 70vw;
+  outline: 0;
 }
 
 /* Estilos al botón de esta sección */
@@ -296,6 +295,12 @@
 /* Estilos para la versión tablet*/
 
 @media (min-width: 768px) {
+  /* Clases generales */
+  .container-fluid { /* Si le agrego la clase zero-padding al container fluid las secciones no ocupan todo el ancho de la pantalla(cuando revisas la versión para móviles), por eso lo estoy modificando directamente */
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   /* Clase para que los contenedores ocultos en la versión móvil se muestren en el dispositivo y para que los de la versión móvil se oculten*/
   .mobile-view {
     display: none;
@@ -342,6 +347,10 @@
 
   /* Estilos modificados de la primera sección*/
 
+  .first-section {
+    background-size: 110vw 100vh;
+  }
+
   .flex-box-item {
     padding-left: 2.2em;
     height: 40vh;
@@ -360,7 +369,7 @@
   }
 
   .logo {
-    width: 14%;
+    width: 33%;
     margin-left: 0.8em;
   }
 
@@ -371,6 +380,7 @@
 
   .button-2 {
     font-size: 16px;
+    margin-bottom: 1em;
   }
 
   /* Estilos a las nuevas clases de esta sección */
@@ -381,7 +391,7 @@
 
   .option hr {
     display: inline-block;
-    width: 9em;
+    width: 10rem;
   }
 
   .option span {
@@ -396,6 +406,7 @@
   .second-section {
     display: block;
     font-size: 1.35em;
+    height: 60vh;
   }
 
   .cellphone-box {
@@ -403,7 +414,7 @@
     height: 55vw;
     padding-right: 1em;
     padding-left: 1.5em;
-    padding-top: 5em;
+    padding-top: 4em;
     padding-bottom: 5em;
     flex-direction: row;
     justify-content: space-between;
@@ -412,7 +423,7 @@
     margin-bottom: 0em;
     margin-left: 0em;
     position: relative;
-    top: 4.5em;
+    top: 4em;
   }
 
   .second-section img {
@@ -433,6 +444,32 @@
     margin-bottom: 1em;
   }
 
+  /* Estilos modiicados de la tercera sección */
+
+  .third-section {
+    height: 45vh;
+  }
+
+  .black-like-background {
+    height: 50vh;
+    width: 45vw;
+  }
+
+  .third-section p {
+    font-size: 1.35em;
+  }
+
+  .flex-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .div-container {
+    padding: 5.5em 3em 6em;
+  }
+}
   @media (min-width: 992px) {
      /* Clase para que los contenedores ocultos en la versión móvil se muestren en el dispositivo y para que los de la versión móvil se oculten*/
     .mobile-view {
@@ -476,6 +513,7 @@
       margin-right: 3em;
     }
   }
+
 
   @media (min-width: 1200px) {
      /* Clase para que los contenedores ocultos en la versión móvil se muestren en el dispositivo y para que los de la versión móvil se oculten*/
