@@ -48,6 +48,14 @@
     padding-bottom: 4.3em;
     padding-left: 3.3em;
 }
+ /* Clase para que los contenedores para la versión móvil se muestren en el dispositivo y para que los de la versión desktop se oculten*/
+.mobile-view {
+  display: block;
+}
+
+.desktop-view {
+  display: none;
+}
 
 /* Estilos de la primera sección */
 .first-section {
@@ -268,6 +276,10 @@
   margin: 12em 0 4em 1.3em;
 }
 
+.little-box-2 img {
+  cursor: pointer;
+}
+
 /* Media querie que utilizo para que en la cuarta sección no sobre tanto espacio a partor del breakpoint indicado */
 
 @media (min-height: 730px) {
@@ -281,7 +293,17 @@
 
 /* Para tablets y desktops de todos los tamaños */
 
+/* Estilos para la versión tablet*/
+
 @media (min-width: 768px) {
+  /* Clase para que los contenedores ocultos en la versión móvil se muestren en el dispositivo y para que los de la versión móvil se oculten*/
+  .mobile-view {
+    display: none;
+  }
+  
+  .desktop-view {
+    display: block;
+  }
 
   /* Cambios de estilos al menú de navegación */
 
@@ -318,16 +340,109 @@
     margin-right: 3em;
   }
 
-  /* Cambios de estilos a la primera sección */
+  /* Estilos modificados de la primera sección*/
 
-  .first-section h1 {
-    font-size: 3.3em;
+  .flex-box-item {
+    padding-left: 2.2em;
+    height: 40vh;
+    width: 50vw;
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 2.1em;
+    margin-bottom: 0.7em;
+    margin-left: 0;
+  }
+
+  .travel {
+    font-size: 1.35em;
   }
 
   .logo {
-    width: 28%;
+    width: 14%;
+    margin-left: 0.8em;
   }
+
+  .button-1 {
+    font-size: 15px;
+    margin-top: 1em;
+  }
+
+  .button-2 {
+    font-size: 16px;
+  }
+
+  /* Estilos a las nuevas clases de esta sección */
+
+  .option {
+    margin-top: 1em;
+  }
+
+  .option hr {
+    display: inline-block;
+    width: 9em;
+  }
+
+  .option span {
+    display: inline-block;
+    position: relative;
+    bottom: 2em;
+    margin: 0 3em 1em;
+  }
+
+  /* Estilos modificados de la segunda sección */
+
+  .second-section {
+    display: block;
+    font-size: 1.35em;
+  }
+
+  .cellphone-box {
+    width: 85vw;
+    height: 55vw;
+    padding-right: 1em;
+    padding-left: 1.5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 0em; 
+    margin-bottom: 0em;
+    margin-left: 0em;
+    position: relative;
+    top: 4.5em;
+  }
+
+  .second-section img {
+    width: 28vw;
+     margin-top: 0;
+  }
+
+  .paragraph {
+    margin-bottom: 0;
+    margin-left: 2.5em;
+    padding-bottom: 0;
+    line-height: 1.5;
+    position: relative;
+    bottom: 0.5em;
+  }
+
+  .paragraph h3 {
+    margin-bottom: 1em;
+  }
+
   @media (min-width: 992px) {
+     /* Clase para que los contenedores ocultos en la versión móvil se muestren en el dispositivo y para que los de la versión móvil se oculten*/
+    .mobile-view {
+      display: none;
+    }
+    
+    .desktop-view {
+      display: block;
+    }
+
     .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
       margin-top: 1em;
       margin-left: 3em;
@@ -363,6 +478,15 @@
   }
 
   @media (min-width: 1200px) {
+     /* Clase para que los contenedores ocultos en la versión móvil se muestren en el dispositivo y para que los de la versión móvil se oculten*/
+    .mobile-view {
+      display: none;
+    }
+    
+    .desktop-view {
+      display: block;
+    }
+
     .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
       margin-top: 1em;
       margin-left: 3em;
