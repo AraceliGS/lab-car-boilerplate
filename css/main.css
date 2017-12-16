@@ -296,7 +296,7 @@
 
 @media (min-width: 768px) {
   /* Clases generales */
-  .container-fluid { /* Si le agrego la clase zero-padding al container fluid las secciones no ocupan todo el ancho de la pantalla(cuando revisas la versión para móviles), por eso lo estoy modificando directamente */
+  .zero-padding-container-fluid { /* Si le agrego la clase zero-padding al container fluid las secciones no ocupan todo el ancho de la pantalla(cuando revisas la versión para móviles), por eso lo estoy modificando directamente */
     padding-right: 0;
     padding-left: 0;
   }
@@ -348,7 +348,7 @@
   /* Estilos modificados de la primera sección*/
 
   .first-section {
-    background-size: 110vw 100vh;
+    background-size: 100vw 100vh;
   }
 
   .flex-box-item {
@@ -411,11 +411,11 @@
 
   .cellphone-box {
     width: 85vw;
-    height: 55vw;
+    height: 48vw;
     padding-right: 1em;
     padding-left: 1.5em;
-    padding-top: 4em;
-    padding-bottom: 5em;
+    padding-top: 6.5rem;
+    padding-bottom: 1rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: left;
@@ -423,7 +423,7 @@
     margin-bottom: 0em;
     margin-left: 0em;
     position: relative;
-    top: 4em;
+    top: 2em;
   }
 
   .second-section img {
@@ -468,6 +468,43 @@
 
   .div-container {
     padding: 5.5em 3em 6em;
+  }
+
+  /* Estilos modificados de la cuarta sección */
+
+  .fourth-section {
+    height: 50vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 4em;
+  }
+
+  .little-box-1 {
+    margin: 0 3.8em;
+  }
+
+  .h3-title {
+    font-size: 22px;
+  }
+
+  .little-box-1 p {
+    font-size: 1.1em;
+  }
+
+  .little-box-1 input {
+    width: 30vw;
+  }
+
+  .little-box-2 {
+    width: 48vw;
+    height: 35vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.4em;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
   @media (min-width: 992px) {
