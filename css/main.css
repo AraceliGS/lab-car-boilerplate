@@ -85,7 +85,9 @@
 }
 
 /* Estilos al botón de la Primera Sección */
+
 /*Esta clase afecta a todos los botones de mi página*/
+
 .btn {
   font-weight: 700;
   border: none;
@@ -95,7 +97,8 @@
   margin-left: 2.8em;
 }
 
-/* Estilos de la segunda Sección */
+/* Estilos a la segunda Sección */
+
 .second-section {
   font-size: 1.4em;
   display: flex;
@@ -110,7 +113,8 @@
   margin-top: 0.3em;
 }
 
-/* Div que encierra la imagen del iPhone6 */
+/* Estilos al contenedor de la imagen del iPhone6 */
+
 .cellphone-box {
   padding: 4em; /*2.5em 4em*/
   display: flex;
@@ -122,7 +126,7 @@
   margin-left: 0.2em;
 }
 
-/* Div que encierra el párrafo*/
+/* Estilos al contenedor que encierra al párrafo*/
 .paragraph {
   width: 50vw;
   margin-bottom: -0.4em; 
@@ -134,7 +138,7 @@
   margin: 0 0 12px;
 }
 
-/*Tercera sección*/
+/* Estilos a la tercera sección */
 
 .third-section {
   /*background-color: rgba(0,0,0,0.5);*/  
@@ -178,7 +182,7 @@
   color: #fcfefc; /* El color de la letra es de un color parecido al blanco, para que se note más */
 }
 
-/* Cuarta sección */
+/* Estilos a la cuarta sección */
 
 .fourth-section {
   height: 105vh;
@@ -186,6 +190,8 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+/* Estilos a la caja con los datos geográficos del usuario*/
 
 .little-box-1 {
   height: 30vh;
@@ -204,6 +210,18 @@
   font-size: 20px;
 }
 
+/* Estilos a los íconos de esta sección*/
+
+.icon-location {
+  margin-right: 1em;
+}
+
+.icon-location img {
+  padding-bottom: 1em;
+}
+
+/* Caja con la ubicación del usuario*/
+
 .mini-box-1 {
   margin-bottom: 1em;
   margin-top: 2.4em;
@@ -213,16 +231,10 @@
   display: inline-block;
 }
 
+/* Caja con la ubicación del sitio adonde quiere ir el usuario */
+
 .mini-box-2 {
   margin-bottom: 3.3em;
-}
-
-.icon-location {
-  margin-right: 1em;
-}
-
-.icon-location img {
-  padding-bottom: 1em;
 }
 
 .mini-box-2 form {
@@ -235,6 +247,8 @@
   width: 70vw;
 }
 
+/* Estilos al botón de esta sección */
+
 .button-div {
   display: flex;
   justify-content: center;
@@ -246,11 +260,15 @@
   border-radius: 4px;
 }
 
+/* Estilos a la imagen que muestra la ubicación del usuario*/
+
 .little-box-2 {
   width: 90vw;
   padding: 0.8em;
   margin: 12em 0 4em 1.3em;
 }
+
+/* Media querie que utilizo para que en la cuarta sección no sobre tanto espacio a partor del breakpoint indicado */
 
 @media (min-height: 730px) {
   .fourth-section {
@@ -264,6 +282,9 @@
 /* Para tablets y desktops de todos los tamaños */
 
 @media (min-width: 768px) {
+
+  /* Cambios de estilos al menú de navegación */
+
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-top: 1em;
     margin-left: 3em;
@@ -297,6 +318,15 @@
     margin-right: 3em;
   }
 
+  /* Cambios de estilos a la primera sección */
+
+  .first-section h1 {
+    font-size: 3.3em;
+  }
+
+  .logo {
+    width: 28%;
+  }
   @media (min-width: 992px) {
     .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
       margin-top: 1em;
