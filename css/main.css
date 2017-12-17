@@ -283,6 +283,12 @@
   cursor: pointer;
 }
 
+/* Estilos al footer */
+
+.silver-icon {
+  color:  ‎#c0c0c0;  
+}
+
 /* Media querie que utilizo para que en la cuarta sección no sobre tanto espacio a partor del breakpoint indicado */
 
 @media (min-height: 730px) {
@@ -411,8 +417,16 @@
     display: block;
     font-size: 1.35em;
     height: 60vh;
+    padding-right: 0;
+    padding-left: 0;
   }
 
+  .flex-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
   .cellphone-box {
     width: 85vw;
     height: 48vw;
@@ -420,14 +434,13 @@
     padding-left: 1.5em;
     padding-top: 6.5rem;
     padding-bottom: 1rem;
+    border-left: none;
     flex-direction: row;
     justify-content: space-between;
     align-items: left;
     margin-top: 0em; 
     margin-bottom: 0em;
     margin-left: 0em;
-    position: relative;
-    top: 2em;
   }
 
   .second-section img {
