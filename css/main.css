@@ -624,6 +624,7 @@
 
     .navbar-right {
       margin-right: 7em;
+      font-size: 0.98em;
     }
 
     /* Estilos modificados de la primera sección */
@@ -751,9 +752,15 @@
 
     /* Estilos modificados al menú de navegación */
 
-    .navbar-right {
-      font-size: 1em;
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 9.2em;
     }
+
+    .navbar-right {
+      font-size: 1.05em;
+      margin-right: 7.5em;
+    }
+
 
     /* Estilos modificados de la primera sección */
 
@@ -787,6 +794,17 @@
 
     .cellphone-box {
       width: 80vw;
+      margin-bottom: 1em;
+    }
+
+    .second-section img {
+      width: 33%;
+      position: relative;
+      bottom: 1.5em;
+    }
+
+    .paragraph {
+      margin-left: 5em;
     }
 
     /* Estilos modificados de la tercera sección*/
@@ -794,11 +812,71 @@
     .black-like-background {
       width: 38vw;
     }
+
+    /* Estilos modificados de la cuarta sección */
+
+    .little-box-1 {
+      margin: 0 6.35em;
+    }
+
+    .h3-title {
+      font-size: 26px;
+    }
+
+    .little-box-1 p {
+      font-size: 1.5em;
+    }
+
+    .little-box-1 input {
+      font-size: 1.4em;
+    }
+
+    .little-box-2 {
+      margin-left: 0.3em;
+    }
+
+    /* Estilos modificados de la cuarta sección */
+
+    .footer {
+      font-size: 1em;
+    }
+
+    .options-1, .options-2 {
+      line-height: 45px;
+      margin-left: 5.9em;
+    }
+
+    .options-2 {
+      margin-right: 5em;
+    }
   }
 
+  /* Hay estilos que no se veian bien en dispositivos de 1580 para delante, así que tuve que crear esta media querie para modificarlos */
+
   @media (min-width: 1550px) {
+
+    /* Estilos de la primera sección */
+
     .flex-box-item {
       width: 30vw;
       padding-left: 4em;
+    }
+
+    /* Estilos de la segunda sección */
+
+    .cellphone-box {
+      padding-left: 6.5em;
+      overflow: hidden;
+    }
+
+    .second-section img {
+      width: 25%;
+      position: relative;
+      bottom: 2.5em;
+    }
+
+    .paragraph {
+      margin-left: 4em;
+      margin-right: 9em;
     }
   }
