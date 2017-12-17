@@ -349,7 +349,9 @@
   }
 
   .navbar-right {
-    margin-right: 3em;
+    margin-top: 0.5em;
+    margin-right: 5em;
+    font-size: 0.9em;
   }
 
   /* Estilos modificados de la primera sección*/
@@ -441,7 +443,7 @@
   }
 
   .cellphone-box img {
-    margin-left: 2.5em;
+    margin-left: 2.3em;
     margin-right: 2.3em;
   }
 
@@ -452,12 +454,11 @@
 
   .paragraph {
     margin-bottom: 0;
-    margin-left: 3em;
-    margin-right: 4em;
+    margin-left: 2em;
     padding-bottom: 0;
     line-height: 1.5;
     position: relative;
-    bottom: 0.5em;
+    bottom: 0.8em;
   }
 
   .paragraph h3 {
@@ -574,11 +575,12 @@
   }
 
   .copyright {
-    padding-top: 0.2em;
+    padding-top: 0.25em;
   }
 }
   @media (min-width: 992px) {
      /* Clase para que los contenedores ocultos en la versión móvil se muestren en el dispositivo y para que los de la versión móvil se oculten*/
+
     .mobile-view {
       display: none;
     }
@@ -587,37 +589,50 @@
       display: block;
     }
 
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      margin-top: 1em;
-      margin-left: 3em;
-    } 
-  
-    .navbar-nav>li>a {
-      font-size: 1.2em;
-    }
-  
-    .padding {
-      padding-top: 0;
-      padding-bottom: 0;
-      padding-left: 0;
-    }
-  
-    .margin {
-      padding-top: 15px;
-      padding-bottom: 7px;
-    }
-  
-    .navbar-brand {
-      margin-left: 4.5em;
-      margin-top: 0.25em;
-    }
-  
-    .margin-top {
-      margin-top: 0px;
-    }
-  
+    /* Estilos modificados del menú de navegación */
+
     .navbar-right {
-      margin-right: 3em;
+      margin-right: 7em;
+    }
+
+    /* Estilos modificados de la primera sección */
+
+    .flex-box-item {
+      width: 40vw;
+    }
+
+    /* Estilos modificados de la segunda sección */
+
+    .second-section img {
+      width: 246px; /* Hay imágenes como esta que definí su valor con píxeles, porque estos son unidades absolutas que me permitirán que conserven su tamaño sin importar el ancho del dispositivo */
+    }
+
+    .cellphone-box {
+      height: 48vh;
+      padding-top: 5rem;
+    }
+
+    .paragraph {
+      position: static;
+    }
+
+    @media (max-width: 920px) {
+      .paragraph {
+        position: relative;
+        bottom: 1.7em;
+      }
+    }
+
+    /* Estilos modificados de la tercera sección */
+
+    .black-like-background {
+      width: 40vw;
+    }
+
+    /* Estilos modificados de la cuarta sección */
+
+    .little-box-2 {
+      overflow: hidden;
     }
   }
 
@@ -630,38 +645,5 @@
     
     .desktop-view {
       display: block;
-    }
-
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      margin-top: 1em;
-      margin-left: 3em;
-    } 
-  
-    .navbar-nav>li>a {
-      font-size: 1.2em;
-    }
-  
-    .padding {
-      padding-top: 0;
-      padding-bottom: 0;
-      padding-left: 0;
-    }
-  
-    .margin {
-      padding-top: 15px;
-      padding-bottom: 7px;
-    }
-  
-    .navbar-brand {
-      margin-left: 4.5em;
-      margin-top: 0.25em;
-    }
-  
-    .margin-top {
-      margin-top: 0px;
-    }
-  
-    .navbar-right {
-      margin-right: 3em;
     }
   }
