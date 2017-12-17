@@ -285,9 +285,6 @@
 
 /* Estilos al footer */
 
-.silver-icon {
-  color:  ‎#c0c0c0;  
-}
 
 /* Media querie que utilizo para que en la cuarta sección no sobre tanto espacio a partor del breakpoint indicado */
 
@@ -428,7 +425,7 @@
     align-items: flex-start;
   }
   .cellphone-box {
-    width: 85vw;
+    width: 87vw;
     height: 48vw;
     padding-right: 1em;
     padding-left: 1.5em;
@@ -443,6 +440,11 @@
     margin-left: 0em;
   }
 
+  .cellphone-box img {
+    margin-left: 2.5em;
+    margin-right: 2.3em;
+  }
+
   .second-section img {
     width: 28vw;
      margin-top: 0;
@@ -450,7 +452,8 @@
 
   .paragraph {
     margin-bottom: 0;
-    margin-left: 2.5em;
+    margin-left: 3em;
+    margin-right: 4em;
     padding-bottom: 0;
     line-height: 1.5;
     position: relative;
@@ -461,7 +464,7 @@
     margin-bottom: 1em;
   }
 
-  /* Estilos modiicados de la tercera sección */
+  /* Estilos modificados de la tercera sección */
 
   .third-section {
     height: 45vh;
@@ -523,7 +526,55 @@
     justify-content: center;
     position: relative;
     bottom: 2em;
-}
+  }
+  
+  /* Estilos modificados del footer */
+
+  .footer {
+    padding: 5em 5.5em;
+    font-size: 0.9em;
+  }
+
+  .logo-2 {
+    width: 100px;
+  }
+
+  .flex-container-3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .social-media-icon {
+    padding-right: 0.8em;
+  }
+
+  .options-1, .options-2 {
+    line-height: 45px;
+    margin-left: 5em;
+  }
+
+  .options-2 {
+    margin-right: 5em;
+  }
+
+  .download {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .image-download {
+    width: 131px;
+    margin-top: 1.3em;
+  }
+
+  .copyright {
+    padding-top: 0.2em;
   }
 }
   @media (min-width: 992px) {
