@@ -285,8 +285,72 @@
 
 /* Estilos al footer */
 
+.footer {
+  padding: 1em 1.5em;
+  font-size: 1.3em;
+}
 
-/* Media querie que utilizo para que en la cuarta sección no sobre tanto espacio a partor del breakpoint indicado */
+.logo-2 {
+  width: 24vw;
+}
+
+.flex-container-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options-1 {
+  line-height: 55px;
+  padding-bottom: 0.9em;
+  margin-right: 3em;
+}
+
+.medium-special-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 35px;
+  margin-right: 3.7em;
+}
+
+.social-media {
+  font-size: 0.95em;
+  margin-bottom: 2.65em;
+}
+
+.social-media-icon {
+  padding-right: 0.8em;
+}
+
+.image-download {
+  width: 35vw;
+}
+
+.div-1 {
+  margin-bottom: 1.5em;
+}
+
+
+  /*margin-right: 5em;*/
+/*
+
+.download {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 7em;*/
+/*}
+/*
+.image-download {
+  /*width: 131px;
+  margin-top: 1.3em;*/
+/*}*/
+
+.copyright {
+  padding-top: 0.2em;
+}
+
+/* Media querie que utilizo para que en la cuarta sección no sobre tanto espacio a partir del breakpoint indicado */
 
 @media (min-height: 730px) {
   .fourth-section {
@@ -296,6 +360,8 @@
   .little-box-2 {
     margin: 13em 0 4em 1.3em;
   }
+
+}
 
 /* Para tablets y desktops de todos los tamaños */
 
@@ -523,7 +589,7 @@
   }
 
   .little-box-2 {
-    width: 45vw;
+    width: 43vw;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 3em;
@@ -543,11 +609,11 @@
 
   .footer {
     padding: 5em 5.5em;
-    font-size: 0.9em;
+    font-size: 1.05em;
   }
 
   .logo-2 {
-    width: 100px;
+    width: 15%;
   }
 
   .flex-container-3 {
@@ -581,7 +647,8 @@
   }
 
   .image-download {
-    width: 131px;
+    min-width: 147px;
+    width: 85%;
     margin-top: 1.3em;
   }
 
@@ -590,6 +657,8 @@
   }
 
 }
+
+/* Para dispositivos de esta anchura a menos, el contenedor de la segunda sección Descarga el app estaba pegado a la parte inferior de dicha sección. Para solucionarlo, se creó este media querie */
 
   @media (max-width: 920px) {
     .paragraph {
@@ -724,7 +793,7 @@
     /* Estilos modificados al footer */
 
     .footer {
-      font-size: 1em;
+      font-size: 1.15em;
     }
   }
 
@@ -816,7 +885,7 @@
     /* Estilos modificados de la cuarta sección */
 
     .little-box-1 {
-      margin: 0 6.35em;
+      margin: 0 6.45em 0 6.7em;
     }
 
     .h3-title {
@@ -835,10 +904,18 @@
       margin-left: 0.3em;
     }
 
+    .little-box-2 img {
+      max-width: 538px;
+    }
+
     /* Estilos modificados de la cuarta sección */
 
     .footer {
-      font-size: 1em;
+      font-size: 1.25em;
+    }
+
+    .logo-2 {
+      width: 12%;
     }
 
     .options-1, .options-2 {
@@ -851,7 +928,7 @@
     }
   }
 
-  /* Hay estilos que no se veian bien en dispositivos de 1580 para delante, así que tuve que crear esta media querie para modificarlos */
+  /* Hay estilos que no se veian bien en dispositivos de 1550 para delante, así que tuve que crear esta media querie para modificarlos */
 
   @media (min-width: 1550px) {
 
@@ -879,4 +956,18 @@
       margin-left: 4em;
       margin-right: 9em;
     }
+
+    /* Estilos modificados del footer */
+
+    .logo-2 {
+      width: 10%;
+    }
+
+    .options-1, .options-2 {
+      margin-left: 2em;
+    }
+  
+    .options-2 {
+      margin-right: 2em;
+    }    
   }
