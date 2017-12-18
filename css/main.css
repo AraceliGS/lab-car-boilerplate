@@ -33,6 +33,10 @@
   font-weight: 600;
 }
 
+hr {
+  border: 1px solid #fff;
+}
+
 /* Para la versión móvil */
 
 /* Estilos del header */
@@ -636,7 +640,7 @@
   }
 
   .options-2 {
-    margin-right: 5em;
+    margin-right: 3em;
   }
 
   .download {
@@ -736,7 +740,7 @@
 
     .cellphone-box {
       height: 48vh;
-      padding-top: 10rem;
+      padding-top: 9rem;
     }
 
     .paragraph {
@@ -794,6 +798,14 @@
 
     .footer {
       font-size: 1.15em;
+    }
+
+    .options-1, .options-2 {
+      margin-left: 6em;
+    }
+
+    .options-2 {
+      margin-right: 6em;
     }
   }
 
