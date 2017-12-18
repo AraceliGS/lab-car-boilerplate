@@ -451,14 +451,19 @@
     padding-left: 0;
     padding-right: 0;
   }
-  
+
+  .fa-times-circle:before {
+    margin-left: 28em;
+    margin-right: 2em;
+    color: #17A589;
+    font-size: 1.3em;
+  }
 
   .user-picture {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 0.3em;
   }
 
   .user-picture img {
@@ -472,16 +477,32 @@
   .forms-1 {
     background-color: #F2F3F4;
     width: 60%;
-    padding: 1em;
+    padding: 2em 1em;
+    margin-bottom: 2.3em;
+  }
+
+  .form-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .form-group {
     border: 1px solid #BFC9CA;
+    border-radius: 4px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .icon-modal-1 {
     border-left: 1px solid #BFC9CA;
     background-color: #D7DBDD;
+    padding-bottom: 7px;
+  }
+
+  .input-div {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .forms-1 input {
@@ -513,6 +534,7 @@
   .button-modal {
     padding: 9px 20px;
     font-size: 1em;
+    margin: 0.7em;
   }
 
   .new-password {
