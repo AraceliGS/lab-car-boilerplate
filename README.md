@@ -20,7 +20,7 @@ Recrear la página web de LabCar(versión web y móvil) utilizando los conocimie
 
 * Responsive Web Design
 
-* Frameworks(Bootsrap)
+* Frameworks(Bootstrap)
 
 ## **A tener en cuenta**
 
