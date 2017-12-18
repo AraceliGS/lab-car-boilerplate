@@ -33,10 +33,6 @@
   font-weight: 600;
 }
 
-hr {
-  border: 1px solid #fff;
-}
-
 /* Para la versión móvil */
 
 /* Estilos del header */
@@ -334,22 +330,6 @@ hr {
   margin-bottom: 1.5em;
 }
 
-
-  /*margin-right: 5em;*/
-/*
-
-.download {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-right: 7em;*/
-/*}
-/*
-.image-download {
-  /*width: 131px;
-  margin-top: 1.3em;*/
-/*}*/
-
 .copyright {
   padding-top: 0.2em;
 }
@@ -458,6 +438,94 @@ hr {
   .button-1 {
     font-size: 1.3em;
     margin-top: 1em;
+  }
+
+  /* Estilos al modal REGÍSTRATE*/
+
+  .user-register-body {
+    background-color: #1ABC9C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+
+  .user-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3em;
+  }
+
+  .user-picture img {
+    width: 40%;
+  }
+
+  .user-register-body hr {
+    width: 100%;
+  }
+
+  .forms-1 {
+    background-color: #F2F3F4;
+    width: 60%;
+    padding: 1em;
+  }
+
+  .form-group {
+    border: 1px solid #BFC9CA;
+  }
+
+  .icon-modal-1 {
+    border-left: 1px solid #BFC9CA;
+    background-color: #D7DBDD;
+  }
+
+  .forms-1 input {
+    font-size: 1.01em;
+  }
+
+  .username {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-modal {
+    padding: 9px 20px;
+    font-size: 1em;
+  }
+
+  .new-password {
+    font-size: 1em;
+  }
+
+  .new-password span {
+    background-color: transparent;
+    font-size: 1em;
+  }
+
+  .new-password a {
+    color: #E74C3C;  
   }
 
   .button-2 {

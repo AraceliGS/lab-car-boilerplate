@@ -60,19 +60,35 @@
                     <div class="white travel">Viaja con<img class="logo" src="assets/images/logoBlanco.png" alt="Logo de LabCar 2"></div>
                     <button type="button" class="btn btn-default btn-lg button-1" data-toggle="modal" data-target="#myModal">REGÍSTRATE</button>
                     <!-- Modal 1 -->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal fade user-register" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                          </div>
-                          <div class="modal-body">
-                            ...
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                          <div class="modal-body user-register-body">
+                            <div class="user-picture">
+                              <img src="assets/images/user-picture.jpg" alt="User Picture">
+                            </div>
+                            <hr>
+                            <!-- Div que encierra los formularios para el e-mail y el password -->
+                            <div class="forms-1">
+                              <form class="form-horizontal">
+                                <div class="form-group">
+                                  <label class="col-sm-2 control-label icon-modal-1"><i class="fa fa-user" aria-hidden="true"></i></label>
+                                  <div class="col-sm-10">
+                                    <input type="text" class="form-control-static username" placeholder="Username">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="inputPassword" class="col-sm-2 control-label icon-modal-1"><i class="fa fa-lock" aria-hidden="true"></i></label>
+                                  <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                  </div>
+                                </div>
+                              </form>
+                              <div class="bottom-section">
+                                <button type="button" class="btn gold white button-modal">LOGING</button>
+                                <h5 class="new-password">Forgot password? <span class="label label-default"><a href="#">Click here</a></span></h5>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
