@@ -4,11 +4,11 @@
 
 Recrear la página web de LabCar(versión web y móvil) utilizando los conocimientos adquiridos en las unidades 1 y 2.
 
-### **Versión web**
+### **Versión móvil**
 
 ![Modal Inicia Sesión](assets/images/img2.png)
 
-### **Versión móvil**
+### **Versión web**
 
 ![Modal Inicia Sesión](assets/images/img1.png)
 
